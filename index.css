@@ -1,0 +1,169 @@
+@keyframes left {
+    50% {
+        opacity: 0.8;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes top {
+    50% {
+        opacity: 0.8;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes right {
+    50% {
+        opacity: 0.8;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes bottom {
+    50% {
+        opacity: 0.8;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes move {
+    50% {
+        transform: translateY(-0.0667rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    height: .6667rem;
+    width: 100%;
+    background-color: #8fcaf6;
+    z-index: 100;
+}
+
+.index {
+    display: block;
+    position: absolute;
+    top: .1467rem;
+    left: .5733rem;
+    background: url(素材/fufu\ -\ 副本.png) no-repeat;
+    width: .3733rem;
+    height: .3733rem;
+    background-size: .3733rem .3733rem;
+    z-index: 9;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    background: url(素材/字.png) no-repeat;
+    top: .1333rem;
+    left: 1.1733rem;
+    height: .4rem;
+    width: .8533rem;
+    background-size: contain;
+}
+
+.search {
+    position: absolute;
+    right: .6rem;
+    width: 4rem;
+}
+
+.search .block {
+    display: flex;
+    margin-top: .24rem;
+}
+
+.search .block a:hover {
+    animation: move 0.5s backwards;
+}
+
+.search .block a {
+    text-decoration: none;
+    line-height: 1;
+    font-size: .1867rem;
+    font-family: "汉仪文黑-85W";
+    color: #fff;
+}
+
+.search .block span {
+    width: .0267rem;
+    height: .2133rem;
+    background-color: #fff;
+    margin: 0 .1333rem;
+}
+
+.picture {
+    height: 11.8133rem;
+    width: 100%;
+    float: bottom;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    top: .6667rem;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

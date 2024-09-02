@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芙门-专门为芙厨打造的平台</title>
+    <meta name="description" content="芙门是为芙芙爱好者打造的交流平台，加入芙门，拥抱芙芙，从此走上人生巅峰！" />
+    <meta name="keywords" content="芙宁娜，芙芙，水神，芙卡洛斯" />
+    <link rel="shortcut icon" href="素材/fufu.ico" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="bubble.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<!-- 如果你看见了这个网页，觉得做的垃圾，请别喷我，小白自学的试作品 -->
+
+<body>
+    <nav>
+        <a href="index.html" class="index"></a>
+        <!-- 图标 -->
+        <a href="index.html" class="logo"></a>
+        <!-- 芙门 -->
+        <div class="search">
+            <!-- 右侧文字 -->
+            <div class="block">
+                <a href="#">角色演示</a>
+                <span></span>
+                <a href="#">角色介绍</a>
+                <span></span>
+                <a href="#">和TA互动</a>
+                <span></span>
+                <a href="https://ys.mihoyo.com/main/">原神启动</a>
+            </div>
+        </div>
+    </nav>
+    <div class="picture"><!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="素材/9ee1d890c5ebdd9511ee3f0921b76748_8406082597924057763 (1).jpg" alt="">
+                </div>
+                <div class="swiper-slide"><img src="素材/07dfb0f09e16cb57558c7f5ecf7ab01c_1369718230498455761 (1).jpg"
+                        alt="">
+                </div>
+                <div class="swiper-slide"><img src="素材/df25e49743bbb836f10b2b2411cadcef346073768.jpg@.webp" alt="">
+                </div>
+                <div class="swiper-slide"><img src="素材/29c43cfca47b8bc3c9bde804cf01e93a346073768.jpg@.webp" alt="">
+                </div>
+                <div class="swiper-slide"><img src="素材/a5c18dcd694a494d8e94ff66f18c4921_4832946647106280834.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="bubble">
+        <div class="bubbleone">
+            <span class="bubble1"></span>
+            <span class="bubble2"></span>
+            <span class="bubble3"></span>
+            <span class="bubble4"></span>
+        </div>
+        <!-- 第一圈 正常上下左右-->
+        <div class="bubbletwo">
+            <span class="bubble5"></span>
+            <span class="bubble6"></span>
+            <span class="bubble7"></span>
+            <span class="bubble8"></span>
+        </div>
+        <!-- 第二圈 上下左右1-->
+        <div class="bubblethree">
+            <span class="bubble9"></span>
+            <span class="bubble10"></span>
+            <span class="bubble11"></span>
+            <span class="bubble12"></span>
+        </div>
+        <!-- 第三圈 上下左右-->
+        <div class="bubblefour">
+            <span class="bubble13"></span>
+            <span class="bubble14"></span>
+            <span class="bubble15"></span>
+            <span class="bubble16"></span>
+        </div>
+        <!-- 第四圈 上下左右1-->
+    </div>
+
+    <!-- 主页展示 -->
+    <script src="js/flexible.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        swiper.el.onmouseover = function () {
+            swiper.autoplay.stop();
+        }
+        swiper.el.onmouseleave = function () {
+            swiper.autoplay.start();
+        }
+    </script>
+</body>
+
+</html>

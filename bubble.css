@@ -1,0 +1,163 @@
+.bubble {
+    position: fixed;
+    height: 23.8364rem;
+    z-index: 99;
+}
+
+.bubble span {
+    display: block;
+    position: fixed;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.bubble1 {
+    width: 100%;
+    height: .4533rem;
+    top: .2133rem;
+    animation: top linear 2s infinite forwards;
+    background: url(素材/泡泡上下.png);
+    background-size: contain;
+}
+
+.bubble2 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    left: -0.4533rem;
+    animation: left linear 2s infinite forwards;
+    background: url(素材/泡泡左右.png);
+    background-size: contain;
+}
+
+.bubble3 {
+    width: 100%;
+    height: .4533rem;
+    bottom: -0.4533rem;
+    animation: bottom linear 2s infinite forwards;
+    background: url(素材/泡泡上下.png);
+    background-size: contain;
+}
+
+.bubble4 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    right: -0.4533rem;
+    animation: right linear 2s infinite forwards;
+    background: url(素材/泡泡左右.png);
+    background-size: contain;
+}
+
+.bubble5 {
+    width: 100%;
+    height: .4533rem;
+    top: .2133rem;
+    animation: top linear 2s 0.5s infinite forwards;
+    background: url(素材/泡泡上下1.png);
+    background-size: contain;
+}
+
+.bubble6 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    left: -0.4533rem;
+    animation: left linear 2s 0.5s infinite forwards;
+    background: url(素材/泡泡左右1.png);
+    background-size: contain;
+}
+
+.bubble7 {
+    width: 100%;
+    height: .4533rem;
+    bottom: -0.4533rem;
+    animation: bottom linear 2s 0.5s infinite forwards;
+    background: url(素材/泡泡上下1.png);
+    background-size: contain;
+}
+
+.bubble8 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    right: -0.4533rem;
+    animation: right linear 2s 0.5s infinite forwards;
+    background: url(素材/泡泡左右1.png);
+    background-size: contain;
+}
+
+.bubble9 {
+    width: 100%;
+    height: .4533rem;
+    top: .2133rem;
+    animation: top linear 2s 1s infinite forwards;
+    background: url(素材/泡泡上下2.png);
+    background-size: contain;
+}
+
+.bubble10 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    left: -0.4533rem;
+    animation: left linear 2s 1s infinite forwards;
+    background: url(素材/泡泡左右2.png);
+    background-size: contain;
+}
+
+.bubble11 {
+    width: 100%;
+    height: .4533rem;
+    bottom: -0.4533rem;
+    animation: bottom linear 2s 1s infinite forwards;
+    background: url(素材/泡泡上下2.png);
+    background-size: contain;
+}
+
+.bubble12 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    right: -0.4533rem;
+    animation: right linear 2s 1s infinite forwards;
+    background: url(素材/泡泡左右2.png);
+    background-size: contain;
+}
+
+.bubble13 {
+    width: 100%;
+    height: .4533rem;
+    top: .2133rem;
+    animation: top linear 2s 1.5s infinite forwards;
+    background: url(素材/泡泡上下1.png);
+    background-size: contain;
+}
+
+.bubble14 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    left: -0.4533rem;
+    animation: left linear 2s 1.5s infinite forwards;
+    background: url(素材/泡泡左右1.png);
+    background-size: contain;
+}
+
+.bubble15 {
+    width: 100%;
+    height: .4533rem;
+    bottom: -0.4533rem;
+    animation: bottom linear 2s 1.5s infinite forwards;
+    background: url(素材/泡泡上下1.png);
+    background-size: contain;
+}
+
+.bubble16 {
+    width: .3733rem;
+    height: 100%;
+    top: .6667rem;
+    right: -0.4533rem;
+    animation: right linear 2s 1.5s infinite forwards;
+    background: url(素材/泡泡左右1.png);
+    background-size: contain;
+}
